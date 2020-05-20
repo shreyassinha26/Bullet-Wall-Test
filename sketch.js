@@ -3,13 +3,13 @@ var speed , weight , damage , thickness;
 var gamestate , PLAY , END;
 
 function setup() {
-  createCanvas(1200,400);
+  createCanvas(700,400);
   PLAY = 0;
   END = 1;
   gamestate = PLAY;
   damage = 0;
   thickness = Math.round(random(22 , 83));
-  wall = createSprite(1500 , 200  , thickness , height/2);
+  wall = createSprite(600 , 200  , thickness , height/2);
   bullet = createSprite(50, 200, 50, 50);
   deformation = 0;
   speed = Math.round(random(223 , 321));
