@@ -3,7 +3,7 @@ var speed , weight , damage , thickness;
 var gamestate , PLAY , END;
 
 function setup() {
-  createCanvas(1600,400);
+  createCanvas(1200,400);
   PLAY = 0;
   END = 1;
   gamestate = PLAY;
